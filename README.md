@@ -1,10 +1,18 @@
-# Getting Started with Create React App
+# Welcome to my repository
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is created with React.js.Click the link to view my site.  
+[Site Link](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Components available in this project
 
-In the project directory, you can run:
+1.Navbar
+2.Home
+3.Inventory
+4.Blogs
+5.Login and Signup
+6.Footer
+
+In the project directory, to run the site use:
 
 ### `npm start`
 
