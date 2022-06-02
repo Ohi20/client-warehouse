@@ -6,10 +6,15 @@ This project is created with React.js.Click the link to view my site.
 ## Components available in this project
 
 1.Navbar
+<br/>
 2.Home
+<br/>
 3.Inventory
+<br/>
 4.Blogs
+<br/>
 5.Login and Signup
+<br/>
 6.Footer
 
 In the project directory, to run the site use:

@@ -3,9 +3,9 @@ import React from 'react';
 const Extra2 = () => {
     return (
         <div className='b-4'>
-            <h2 className='text-center text-2xl text-secondary font-bold'>Business Summary</h2>
-            <div className='text-center grid grid-cols-1 sm:cols-1 text-xl'>
-            <div class="stats shadow ">
+            <h2 className='text-center text-2xl text-white font-bold mt-10 mb-0 bg-neutral p-5'>Business Summary</h2>
+            <div className='text-center grid grid-cols-1 sm:cols-1 text-xl '>
+            <div class="stats shadow bg-neutral text-white">
   
   <div class="stat">
     <div class="stat-figure text-primary">
