@@ -15,10 +15,15 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
+
         <Route path="/inventory" element={<Requireauth><Inventory></Inventory></Requireauth>} />
+
         <Route path="/blogs" element={<Blogs></Blogs>} />
+
         <Route path="/login" element={<Login></Login>} />
+
         <Route path="/signup" element={<Signup></Signup>} />
+        
         <Route path="*" element={<NotFound></NotFound>} />
         
       </Routes>
