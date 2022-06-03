@@ -38,7 +38,7 @@ const Login = () => {
 
     return (
         <div className='flex h-screen justify-center items-center '>
-            <div class="card lg:card-side bg-base-100 shadow-xl">
+            <div class="card lg:card-side text-white bg-neutral shadow-xl">
  
   <div class="card-body">
     <h2 class="card-title text-center text-2xl font-bold">Login</h2>
@@ -46,7 +46,7 @@ const Login = () => {
 
     <div class="form-control w-full max-w-xs">
   <label class="label">
-    <span class="label-text">Email</span>
+    <span class="label-text text-white">Email</span>
     
   </label>
   <input 
@@ -73,7 +73,7 @@ const Login = () => {
 </div>
     <div class="form-control w-full max-w-xs">
   <label class="label">
-    <span class="label-text">Password</span>
+    <span class="label-text text-white">Password</span>
     
   </label>
   <input 
@@ -103,10 +103,10 @@ const Login = () => {
       {signInError}
       <input className='btn w-full max-w-xs text-white' type="submit" value="Login" />
     </form>
-    <p><small>New to Camerassories? <Link className='text-primary' to="/signup">Create New Account</Link></small></p>
+    <p><small>New to Camerassories? <Link className='text-secondary' to="/signup">Create New Account</Link></small></p>
     <div class="divider">OR</div>
     <button onClick={() => signInWithGoogle()} 
-    className='btn btn-outline'>Continue with Google</button>
+    className='btn btn-outline text-white'>Continue with Google</button>
   </div>
 </div>
         </div>

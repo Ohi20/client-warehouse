@@ -42,7 +42,7 @@ const Signup = () => {
 
     return (
         <div className='flex h-screen justify-center items-center '>
-            <div class="card lg:card-side bg-base-100 shadow-xl">
+            <div class="card lg:card-side text-white bg-neutral shadow-xl">
  
   <div class="card-body">
     <h2 class="card-title text-center text-2xl font-bold">Sign Up</h2>
@@ -50,7 +50,7 @@ const Signup = () => {
 
     <div class="form-control w-full max-w-xs">
   <label class="label">
-    <span class="label-text">Email</span>
+    <span class="label-text text-white">Email</span>
     
   </label>
   <input 
@@ -77,7 +77,7 @@ const Signup = () => {
 </div>
     <div class="form-control w-full max-w-xs">
   <label class="label">
-    <span class="label-text">Name</span>
+    <span class="label-text text-white">Name</span>
     
   </label>
   <input 
@@ -101,7 +101,7 @@ const Signup = () => {
 </div>
     <div class="form-control w-full max-w-xs">
   <label class="label">
-    <span class="label-text">Password</span>
+    <span class="label-text text-white">Password</span>
     
   </label>
   <input 
@@ -131,10 +131,10 @@ const Signup = () => {
       {signInError}
       <input className='btn w-full max-w-xs text-white' type="submit" value="Sign Up" />
     </form>
-    <p><small>Already have an Account? <Link className='text-primary' to="/login">Please Login</Link></small></p>
+    <p><small>Already have an Account? <Link className='text-secondary' to="/login">Please Login</Link></small></p>
     <div class="divider">OR</div>
     <button onClick={() => signInWithGoogle()} 
-    className='btn btn-outline'>Continue with Google</button>
+    className='btn btn-outline text-white'>Continue with Google</button>
   </div>
 </div>
         </div>
